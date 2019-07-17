@@ -22,6 +22,6 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   // it('returns object without the delete key/value pair',
   var copy = object
   console.log(copy)
-  delete copy[key][value]
+  delete copy[key]
   return copy
 }
