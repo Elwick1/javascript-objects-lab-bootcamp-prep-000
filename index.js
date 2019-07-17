@@ -15,7 +15,7 @@ function deleteFromObjectByKey(object, key) {
   var copy = object
   console.log(object)
   delete[key]
-  return object
+  return copy
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
