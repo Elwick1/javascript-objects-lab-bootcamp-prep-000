@@ -12,7 +12,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 function deleteFromObjectByKey(object, key) {
   // it('deletes `key` from a clone of object and returns the new object (it is non-destructive)',
-  var copy = object.assign({}, key)
+  var copy = object
   console.log(copy)
   delete copy[key]
   return copy
