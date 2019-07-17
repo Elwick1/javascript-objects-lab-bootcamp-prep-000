@@ -13,6 +13,6 @@ function deleteFromObjectByKey(object, key) {
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
-  object.pop();
+  object.splice();
   return object
 }
