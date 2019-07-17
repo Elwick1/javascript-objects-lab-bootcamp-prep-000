@@ -20,7 +20,7 @@ function deleteFromObjectByKey(object, key) {
 
 function destructivelyDeleteFromObjectByKey(object, key) {
   // it('returns object without the delete key/value pair',
-  var copy = Object.assign({}. object)
+  var copy = object
   console.log(copy)
   delete copy[key][value]
   return copy
