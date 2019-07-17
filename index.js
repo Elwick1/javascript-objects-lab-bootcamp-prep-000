@@ -9,8 +9,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 }
 
 function deleteFromObjectByKey(object, key) {
-  object.pop()
-  return object
   
 }
 
