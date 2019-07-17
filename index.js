@@ -14,7 +14,7 @@ function deleteFromObjectByKey(object, key) {
   // it('deletes `key` from a clone of object and returns the new object (it is non-destructive)',
   var copy = object
   console.log(object)
-  delete object[key]
+  delete copy[key]
   return copy
 }
 
