@@ -12,7 +12,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 function deleteFromObjectByKey(object, key) {
   // it('deletes `key` from a clone of object and returns the new object (it is non-destructive)',
-  console.log(key)
   delete[key]
   return object
 }
